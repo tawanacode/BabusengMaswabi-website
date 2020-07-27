@@ -706,7 +706,7 @@ h1, h2, h3, h4, h5,
 }
 .hero, .hero > .container > .row {
   height: 70vh;
-  min-height: 300px;
+  min-height: 600px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
