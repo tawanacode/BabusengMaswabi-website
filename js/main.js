@@ -249,7 +249,7 @@ jQuery(document).ready(function($) {
 	var siteSticky = function() {
 		$(".js-sticky-header").sticky({topSpacing:0});
 	};
-	siteSticky();
+	//siteSticky();
 
 	// navigation
   var OnePageNavigation = function() {

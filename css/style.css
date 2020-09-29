@@ -311,11 +311,8 @@ h1 {
 /* Navbar */
 .site-navbar {
   margin-bottom: 0px;
-  z-index: 9;
-  position: fixed;
-  top: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   background: #082432;
 }
 @media (max-width: 991.98px) {
@@ -676,7 +673,7 @@ h1 {
   transition: 0.3s all ease;
 }
 .sticky-wrapper .site-navbar {
-  background: #fff;
+  background: #082432;
 }
 .sticky-wrapper .site-navbar ul li a {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -685,7 +682,7 @@ h1 {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
+  background: #082432;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
           box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
@@ -718,7 +715,6 @@ h1 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 600px;
 }
 @media (min-width: 992px) {
   .hero, .hero > .container > .row {
@@ -778,13 +774,11 @@ h1 {
 }
 @media (min-width: 1200px) {
   .hero.team {
-    margin-top: 6rem;
     background-position: top center;
   }
 }
 @media (min-width: 992px) {
   .hero.team {
-    margin-top: 5rem;
     background-position: bottom center;
   }
 }
@@ -858,10 +852,10 @@ h1 {
   content: "";
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
   width: 40px;
   height: 40px;
   background: #f4f983;
@@ -889,6 +883,7 @@ h1 {
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
   background: #fff;
   font-size: 14px;
+  text-align: center;
 }
 .practicing .practicing-inner h3 {
   font-size: 20px;
