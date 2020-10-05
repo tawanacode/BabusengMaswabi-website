@@ -883,7 +883,7 @@ h1 {
   font-size: 18px;
 }
 
-.btn.btn-primary {
+.btn:not(.btn-sm).btn-primary {
   padding: 12px 25px;
 }
 .btn.btn-white {
