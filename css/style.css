@@ -209,7 +209,7 @@ h1 {
   bottom: 0;
   z-index: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
 }
 .bg-image > .container {
   position: relative;
@@ -1083,7 +1083,7 @@ h1 {
   text-align: center;
 }
 .post-entry-1.person-1 img {
-  width: 90px;
+  width: 150px;
   border-radius: 50%;
   margin: 0 auto -45px auto;
 }
